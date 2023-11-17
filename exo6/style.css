@@ -1,0 +1,51 @@
+body{
+    height: 98vh;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 1vh 1%;
+    width: 98%;
+}
+
+header, footer{
+    background-color: blue;
+    width: 100%;
+    height: 10%;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+main{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    gap: 10px;
+}
+
+.navigation, .sidebar{
+    background-color: orange;
+    height: 100%;
+    flex-grow: 1;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenu{
+    background-color: skyblue;
+    height: 100%;
+    flex-grow: 3;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

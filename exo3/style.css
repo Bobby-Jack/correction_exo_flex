@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.parent{
+    background-color: bisque;
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.child{
+    background-color: red;
+    display: flex;
+    height: 150px;    
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+#child1{
+    width: 10%;
+}
+#child2{
+    width: 25%;
+}
+#child3{
+    width: 40%;
+}
+#child4{
+    width: 25%;
+}
+
+
+
+
+

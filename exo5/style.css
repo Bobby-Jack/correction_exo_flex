@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    gap: 10px;
+}
+
+.left, .right{
+    width: 50%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.row{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    gap: 10px;
+}
+
+.flexcol{
+    flex-direction: column;
+}
+
+.child1{
+    width: 100%;
+    height: 50%;
+    background-color: red;
+}
+
+.child{
+    flex-grow: 1;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
